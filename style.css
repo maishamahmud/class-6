@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,400;1,500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6,p,span,a,button{
+	font-family: 'Playfair Display', serif;
+}
+.nav-link{
+	text-transform: uppercase;
+	color: #b4ad9e !important;
+}
+.nav-link:hover{
+	color: black !important;
+}
+.nav-item{
+	margin-left: 30px;
+}
+.blog-post{
+	padding: 102px;
+}
+
+.post{
+	padding: 102px;
+}
+.subscribe{
+	width: 100%;
+	display: flow-root;
+	background:  #f0f0f0;
+	padding: 80px 0;
+	text-align: center;
+}
+.title{
+	margin-bottom: 30px;
+}
+.title h1{
+	font-weight: 400;
+	text-align: center;
+
+}
+form{
+	position: relative;
+}
+form input{
+	width: 30%;
+	padding: 20px 0px;
+	border: none;
+	background: transparent;
+	border-bottom: 2px solid black;
+}
+
+form input:focus{
+	outline: none;
+}
+form input i{
+	position: absolute;
+	top: 22px;
+	right: 36%;
+}
+.load-more{
+	padding: 80px 0;
+	text-align: center;
+}
+.button button{
+	padding: 20px 35px;
+}
